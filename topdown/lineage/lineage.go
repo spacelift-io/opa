@@ -5,7 +5,7 @@
 package lineage
 
 import (
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 // Debug contains everything in the log.

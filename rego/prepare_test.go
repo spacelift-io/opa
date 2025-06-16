@@ -10,10 +10,10 @@ import (
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/types"
 )
 
 // NOTE(sr): These test are here because the only cases where PrepareOption are

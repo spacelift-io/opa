@@ -15,16 +15,16 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/internal/file/archive"
 
-	"github.com/open-policy-agent/opa/bundle"
+	"github.com/spacelift-io/opa/bundle"
 
 	badger "github.com/dgraph-io/badger/v3"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 type testRead struct {

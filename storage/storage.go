@@ -7,7 +7,7 @@ package storage
 import (
 	"context"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 // NewTransactionOrDie is a helper function to create a new transaction. If the

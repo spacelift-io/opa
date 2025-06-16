@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/storage"
 )
 
 const pathWildcard = "*"

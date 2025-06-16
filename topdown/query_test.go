@@ -10,9 +10,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/storage"
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/storage"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
 )
 
 func TestQueryTracerDontPlugLocalVars(t *testing.T) {

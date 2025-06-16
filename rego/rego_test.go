@@ -22,19 +22,19 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/storage/mock"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/storage/mock"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/topdown/cache"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func assertEval(t *testing.T, r *Rego, expected string) {
@@ -723,7 +723,7 @@ func TestPartialRewriteEquals(t *testing.T) {
 	}
 }
 
-// NOTE(sr): https://github.com/open-policy-agent/opa/issues/4345
+// NOTE(sr): https://github.com/spacelift-io/opa/issues/4345
 func TestPrepareAndEvalRaceConditions(t *testing.T) {
 	tests := []struct {
 		note   string

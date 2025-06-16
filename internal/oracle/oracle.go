@@ -3,7 +3,7 @@ package oracle
 import (
 	"errors"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 // Error defines the structure of errors returned by the oracle.

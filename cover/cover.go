@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 // Cover computes and reports on coverage.

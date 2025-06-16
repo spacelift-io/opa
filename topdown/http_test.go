@@ -26,17 +26,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/tracing"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/internal/version"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/tracing"
+	"github.com/spacelift-io/opa/util"
 
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
-	iCache "github.com/open-policy-agent/opa/topdown/cache"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
+	iCache "github.com/spacelift-io/opa/topdown/cache"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 // The person Type

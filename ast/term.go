@@ -22,9 +22,9 @@ import (
 
 	"github.com/OneOfOne/xxhash"
 
-	astJSON "github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/util"
+	astJSON "github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/util"
 )
 
 var errFindNotFound = fmt.Errorf("find: not found")

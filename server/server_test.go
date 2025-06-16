@@ -40,25 +40,25 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/config"
-	"github.com/open-policy-agent/opa/internal/distributedtracing"
-	"github.com/open-policy-agent/opa/internal/prometheus"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	pluginBundle "github.com/open-policy-agent/opa/plugins/bundle"
-	pluginStatus "github.com/open-policy-agent/opa/plugins/status"
-	"github.com/open-policy-agent/opa/server/authorizer"
-	"github.com/open-policy-agent/opa/server/identifier"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/disk"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/config"
+	"github.com/spacelift-io/opa/internal/distributedtracing"
+	"github.com/spacelift-io/opa/internal/prometheus"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
+	pluginBundle "github.com/spacelift-io/opa/plugins/bundle"
+	pluginStatus "github.com/spacelift-io/opa/plugins/status"
+	"github.com/spacelift-io/opa/server/authorizer"
+	"github.com/spacelift-io/opa/server/identifier"
+	"github.com/spacelift-io/opa/server/types"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/disk"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
+	"github.com/spacelift-io/opa/version"
 )
 
 type tr struct {
@@ -1732,7 +1732,7 @@ func generateJSONBenchmarkData(k, v int) map[string]interface{} {
 	}
 }
 
-// Ref: https://github.com/open-policy-agent/opa/issues/6804
+// Ref: https://github.com/spacelift-io/opa/issues/6804
 func TestDataGetV1CompressedRequestWithAuthorizer(t *testing.T) {
 	tests := []struct {
 		note                  string

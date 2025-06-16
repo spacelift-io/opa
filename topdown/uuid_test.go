@@ -10,7 +10,7 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 func TestUUIDRFC4122SeedingAndCaching(t *testing.T) {

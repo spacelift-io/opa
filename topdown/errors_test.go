@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 func TestErrorWrapping(t *testing.T) {

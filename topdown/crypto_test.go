@@ -15,8 +15,8 @@ import (
 
 	"github.com/google/go-cmp/cmp"
 	"github.com/google/go-cmp/cmp/cmpopts"
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown/builtins"
 )
 
 var rootCA = `-----BEGIN CERTIFICATE-----

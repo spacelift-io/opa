@@ -9,15 +9,15 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/copypropagation"
-	"github.com/open-policy-agent/opa/topdown/print"
-	"github.com/open-policy-agent/opa/tracing"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/topdown/cache"
+	"github.com/spacelift-io/opa/topdown/copypropagation"
+	"github.com/spacelift-io/opa/topdown/print"
+	"github.com/spacelift-io/opa/tracing"
+	"github.com/spacelift-io/opa/types"
 )
 
 type evalIterator func(*eval) error

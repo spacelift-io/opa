@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"strconv"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/test/cases"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/format"
+	"github.com/spacelift-io/opa/test/cases"
+	"github.com/spacelift-io/opa/util"
 	"gopkg.in/yaml.v3"
 )
 

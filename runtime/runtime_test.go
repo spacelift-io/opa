@@ -19,18 +19,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/loader"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/loader"
 
-	"github.com/open-policy-agent/opa/internal/report"
-	"github.com/open-policy-agent/opa/logging"
-	testLog "github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/server"
+	"github.com/spacelift-io/opa/internal/report"
+	"github.com/spacelift-io/opa/logging"
+	testLog "github.com/spacelift-io/opa/logging/test"
+	"github.com/spacelift-io/opa/server"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestRuntimeProcessWatchEvents(t *testing.T) {
@@ -661,7 +661,7 @@ func TestCheckOPAUpdateBadURL(t *testing.T) {
 func TestCheckOPAUpdateWithNewUpdate(t *testing.T) {
 	exp := &report.DataResponse{Latest: report.ReleaseDetails{
 		Download:      "https://openpolicyagent.org/downloads/v100.0.0/opa_darwin_amd64",
-		ReleaseNotes:  "https://github.com/open-policy-agent/opa/releases/tag/v100.0.0",
+		ReleaseNotes:  "https://github.com/spacelift-io/opa/releases/tag/v100.0.0",
 		LatestRelease: "v100.0.0",
 	}}
 
@@ -691,7 +691,7 @@ func TestCheckOPAUpdateLoopNoUpdate(t *testing.T) {
 func TestCheckOPAUpdateLoopWithNewUpdate(t *testing.T) {
 	exp := &report.DataResponse{Latest: report.ReleaseDetails{
 		Download:      "https://openpolicyagent.org/downloads/v100.0.0/opa_darwin_amd64",
-		ReleaseNotes:  "https://github.com/open-policy-agent/opa/releases/tag/v100.0.0",
+		ReleaseNotes:  "https://github.com/spacelift-io/opa/releases/tag/v100.0.0",
 		LatestRelease: "v100.0.0",
 		OPAUpToDate:   false,
 	}}

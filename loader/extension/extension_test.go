@@ -11,9 +11,9 @@ import (
 	"testing"
 	"testing/fstest"
 
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/loader/extension"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/loader/extension"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestLoaderExtensionUnmarshal(t *testing.T) {

@@ -10,11 +10,11 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws/sign"
-	"github.com/open-policy-agent/opa/keys"
+	"github.com/spacelift-io/opa/internal/jwx/jwa"
+	"github.com/spacelift-io/opa/internal/jwx/jws/sign"
+	"github.com/spacelift-io/opa/keys"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

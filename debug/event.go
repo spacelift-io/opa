@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 type EventType string

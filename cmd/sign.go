@@ -16,10 +16,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	initload "github.com/open-policy-agent/opa/internal/runtime/init"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	initload "github.com/spacelift-io/opa/internal/runtime/init"
+	"github.com/spacelift-io/opa/util"
 )
 
 type signCmdParams struct {

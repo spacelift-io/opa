@@ -17,11 +17,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/test/authz"
-	testAuthz "github.com/open-policy-agent/opa/test/authz"
-	"github.com/open-policy-agent/opa/test/e2e"
-	testLogs "github.com/open-policy-agent/opa/test/e2e/logs"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/test/authz"
+	testAuthz "github.com/spacelift-io/opa/test/authz"
+	"github.com/spacelift-io/opa/test/e2e"
+	testLogs "github.com/spacelift-io/opa/test/e2e/logs"
+	"github.com/spacelift-io/opa/util"
 )
 
 var testRuntime *e2e.TestRuntime

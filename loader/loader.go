@@ -17,16 +17,16 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-policy-agent/opa/ast"
-	astJSON "github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/bundle"
-	fileurl "github.com/open-policy-agent/opa/internal/file/url"
-	"github.com/open-policy-agent/opa/internal/merge"
-	"github.com/open-policy-agent/opa/loader/filter"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	astJSON "github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/bundle"
+	fileurl "github.com/spacelift-io/opa/internal/file/url"
+	"github.com/spacelift-io/opa/internal/merge"
+	"github.com/spacelift-io/opa/loader/filter"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Result represents the result of successfully loading zero or more files.

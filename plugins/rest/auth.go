@@ -28,13 +28,13 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws"
-	"github.com/open-policy-agent/opa/internal/jwx/jws/sign"
-	"github.com/open-policy-agent/opa/internal/providers/aws"
-	"github.com/open-policy-agent/opa/internal/uuid"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/spacelift-io/opa/internal/jwx/jwa"
+	"github.com/spacelift-io/opa/internal/jwx/jws"
+	"github.com/spacelift-io/opa/internal/jwx/jws/sign"
+	"github.com/spacelift-io/opa/internal/providers/aws"
+	"github.com/spacelift-io/opa/internal/uuid"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/logging"
 )
 
 const (

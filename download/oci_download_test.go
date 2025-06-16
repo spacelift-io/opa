@@ -13,17 +13,17 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
 
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/plugins/rest"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/plugins/rest"
 )
 
 // when changed the layer hash & size should be updated in .manifest files
-//go:generate go run github.com/open-policy-agent/opa build -b --signing-alg HS256 testdata/latest_bundle_data --output testdata/latest.tar.gz
-//go:generate go run github.com/open-policy-agent/opa build -b --signing-alg HS256 --signing-key secret testdata/signed_bundle_data --output testdata/signed.tar.gz
-//go:generate go run github.com/open-policy-agent/opa build --v1-compatible -b --signing-alg HS256 --signing-key secret testdata/rego_v1_bundle_data --output testdata/rego_v1.tar.gz
+//go:generate go run github.com/spacelift-io/opa build -b --signing-alg HS256 testdata/latest_bundle_data --output testdata/latest.tar.gz
+//go:generate go run github.com/spacelift-io/opa build -b --signing-alg HS256 --signing-key secret testdata/signed_bundle_data --output testdata/signed.tar.gz
+//go:generate go run github.com/spacelift-io/opa build --v1-compatible -b --signing-alg HS256 --signing-key secret testdata/rego_v1_bundle_data --output testdata/rego_v1.tar.gz
 
 func TestOCIDownloaderWithBundleVerificationConfig(t *testing.T) {
 	vc := bundle.NewVerificationConfig(map[string]*bundle.KeyConfig{"default": {Key: "secret", Algorithm: "HS256"}}, "", "", nil)

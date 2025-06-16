@@ -11,7 +11,7 @@ package ir
 import (
 	"fmt"
 
-	"github.com/open-policy-agent/opa/types"
+	"github.com/spacelift-io/opa/types"
 )
 
 type (

@@ -12,9 +12,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast/internal/tokens"
-	astJSON "github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast/internal/tokens"
+	astJSON "github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Initialize seed for term hashing. This is intentionally placed before the

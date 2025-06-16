@@ -10,15 +10,15 @@ import (
 	"io"
 	"os"
 
-	"github.com/open-policy-agent/opa/dependencies"
-	"github.com/open-policy-agent/opa/internal/presentation"
+	"github.com/spacelift-io/opa/dependencies"
+	"github.com/spacelift-io/opa/internal/presentation"
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/util"
 )
 
 type depsCommandParams struct {

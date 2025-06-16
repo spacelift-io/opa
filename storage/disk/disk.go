@@ -74,9 +74,9 @@ import (
 	badger "github.com/dgraph-io/badger/v3"
 	"github.com/prometheus/client_golang/prometheus"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
 )
 
 // TODO(tsandall): add support for migrations

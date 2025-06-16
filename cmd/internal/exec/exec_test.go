@@ -8,10 +8,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/sdk"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/sdk"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 /*

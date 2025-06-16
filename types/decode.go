@@ -8,7 +8,7 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

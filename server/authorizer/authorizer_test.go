@@ -15,13 +15,13 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/server/identifier"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/print"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/server/identifier"
+	"github.com/spacelift-io/opa/server/types"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/topdown/cache"
+	"github.com/spacelift-io/opa/topdown/print"
+	"github.com/spacelift-io/opa/util"
 )
 
 type mockHandler struct {

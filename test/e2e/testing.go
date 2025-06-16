@@ -20,12 +20,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/uuid"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/runtime"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/internal/uuid"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/logging/test"
+	"github.com/spacelift-io/opa/runtime"
+	"github.com/spacelift-io/opa/server/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/server/writer"
-	util_decoding "github.com/open-policy-agent/opa/util/decoding"
+	"github.com/spacelift-io/opa/server/types"
+	"github.com/spacelift-io/opa/server/writer"
+	util_decoding "github.com/spacelift-io/opa/util/decoding"
 )
 
 // This handler provides hard limits on the size of the request body, for both

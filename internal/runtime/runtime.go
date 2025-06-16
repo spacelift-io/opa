@@ -9,9 +9,9 @@ import (
 	"os"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/version"
 )
 
 // Params controls the types of runtime information to return.

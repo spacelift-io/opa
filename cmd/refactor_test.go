@@ -7,9 +7,9 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/format"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestDoMoveRenamePackage(t *testing.T) {

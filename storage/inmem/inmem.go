@@ -24,10 +24,10 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/merge"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/merge"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
 )
 
 // New returns an empty in-memory store.

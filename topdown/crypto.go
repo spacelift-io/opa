@@ -23,11 +23,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/jwx/jwk"
+	"github.com/spacelift-io/opa/internal/jwx/jwk"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

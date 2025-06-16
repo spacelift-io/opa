@@ -17,11 +17,11 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/tracing"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/internal/version"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/tracing"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

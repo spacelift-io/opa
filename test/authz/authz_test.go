@@ -8,10 +8,10 @@ import (
 	"context"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/inmem"
 )
 
 func TestAuthz(t *testing.T) {

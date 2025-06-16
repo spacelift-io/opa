@@ -5,8 +5,8 @@ import (
 	"io"
 	"time"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/util"
 )
 
 type Params struct {

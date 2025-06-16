@@ -8,13 +8,13 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/keys"
+	"github.com/spacelift-io/opa/keys"
 
-	"github.com/open-policy-agent/opa/bundle"
+	"github.com/spacelift-io/opa/bundle"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/download"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/download"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Config represents the configuration for the discovery feature.

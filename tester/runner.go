@@ -15,15 +15,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	wasm_errors "github.com/open-policy-agent/opa/internal/wasm/sdk/opa/errors"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	wasm_errors "github.com/spacelift-io/opa/internal/wasm/sdk/opa/errors"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 // TestPrefix declares the prefix for all test rules.

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast/internal/tokens"
-	astJSON "github.com/open-policy-agent/opa/ast/json"
+	"github.com/spacelift-io/opa/ast/internal/tokens"
+	astJSON "github.com/spacelift-io/opa/ast/json"
 )
 
 const (
@@ -4112,7 +4112,7 @@ func TestWildcards(t *testing.T) {
 	})
 }
 
-// https://github.com/open-policy-agent/opa/issues/7128
+// https://github.com/spacelift-io/opa/issues/7128
 func TestParseMultiValueRuleGeneratedBodyLocationText(t *testing.T) {
 	t.Parallel()
 
@@ -6173,7 +6173,7 @@ is_string := rego.metadata.rule().custom.string == "yes"
 	}
 }
 
-// https://github.com/open-policy-agent/opa/issues/6587
+// https://github.com/spacelift-io/opa/issues/6587
 func TestAnnotationsParseErrorOnFirstRowGetsCorrectLocation(t *testing.T) {
 	module := `# METADATA
 # description: ` + "`foo` bars" + `

@@ -9,7 +9,7 @@ package runtime
 import (
 	"os/user"
 
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/spacelift-io/opa/logging"
 )
 
 // checkUserPrivileges could not be running in Docker, so we only warn

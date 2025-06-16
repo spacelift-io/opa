@@ -12,8 +12,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestModuleJSONRoundTrip(t *testing.T) {

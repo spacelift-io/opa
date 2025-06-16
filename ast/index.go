@@ -9,7 +9,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 // RuleIndex defines the interface for rule indices.

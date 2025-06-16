@@ -15,12 +15,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/presentation"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 // Minimize the number of tests that *actually* run the benchmarks, they are pretty slow.

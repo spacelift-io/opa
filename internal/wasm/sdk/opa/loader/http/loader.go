@@ -13,10 +13,10 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa/errors"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/wasm/sdk/opa"
+	"github.com/spacelift-io/opa/internal/wasm/sdk/opa/errors"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

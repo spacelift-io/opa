@@ -7,8 +7,8 @@ package resolver
 import (
 	"context"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/metrics"
 )
 
 // Resolver defines an external value resolver for OPA evaluations.

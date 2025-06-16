@@ -15,7 +15,7 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestInterfaceToValue(t *testing.T) {

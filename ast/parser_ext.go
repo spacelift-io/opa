@@ -17,8 +17,8 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/open-policy-agent/opa/ast/internal/tokens"
-	astJSON "github.com/open-policy-agent/opa/ast/json"
+	"github.com/spacelift-io/opa/ast/internal/tokens"
+	astJSON "github.com/spacelift-io/opa/ast/json"
 )
 
 // MustParseBody returns a parsed body.

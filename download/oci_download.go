@@ -24,13 +24,13 @@ import (
 	oraslib "oras.land/oras-go/v2"
 	"oras.land/oras-go/v2/content/oci"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
+	"github.com/spacelift-io/opa/plugins/rest"
+	"github.com/spacelift-io/opa/util"
 )
 
 // NewOCI returns a new Downloader that can be started.

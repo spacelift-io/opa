@@ -12,8 +12,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
 )
 
 func TestJSONSerialization(t *testing.T) {

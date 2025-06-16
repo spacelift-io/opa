@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cmd/internal/env"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/cmd/internal/env"
 	"github.com/spf13/cobra"
 )
 

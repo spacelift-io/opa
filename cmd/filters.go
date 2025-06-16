@@ -8,8 +8,8 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/loader"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/loader"
 )
 
 type loaderFilter struct {

@@ -31,18 +31,18 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/jwx/jwa"
-	"github.com/open-policy-agent/opa/internal/jwx/jws"
-	"github.com/open-policy-agent/opa/internal/providers/aws"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/tracing"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/jwx/jwa"
+	"github.com/spacelift-io/opa/internal/jwx/jws"
+	"github.com/spacelift-io/opa/internal/providers/aws"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/tracing"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/internal/version"
+	"github.com/spacelift-io/opa/util/test"
 
-	testlogger "github.com/open-policy-agent/opa/logging/test"
+	testlogger "github.com/spacelift-io/opa/logging/test"
 )
 
 const keyID = "key1"
@@ -1784,7 +1784,7 @@ func TestOauth2ClientCredentialsJwtAuthentication(t *testing.T) {
 	}
 }
 
-// https://github.com/open-policy-agent/opa/issues/3255
+// https://github.com/spacelift-io/opa/issues/3255
 func TestS3SigningInstantiationInitializesLogger(t *testing.T) {
 	config := `{
 			"name": "foo",

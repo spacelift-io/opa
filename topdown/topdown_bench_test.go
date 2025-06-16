@@ -14,11 +14,11 @@ import (
 	"testing"
 	"text/template"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func BenchmarkArrayIteration(b *testing.B) {
@@ -808,7 +808,7 @@ func BenchmarkObjectSubsetSlow(b *testing.B) {
 			store := inmem.NewFromObject(map[string]interface{}{"all": all, "evens": evens})
 
 			// Code is lifted from here:
-			// https://github.com/open-policy-agent/opa/issues/4358#issue-1141145857
+			// https://github.com/spacelift-io/opa/issues/4358#issue-1141145857
 
 			module := `package test
 			path_matches[match] {

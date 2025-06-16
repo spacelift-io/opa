@@ -7,9 +7,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/logging"
-	test_sdk "github.com/open-policy-agent/opa/sdk/test"
-	"github.com/open-policy-agent/opa/test/e2e"
+	"github.com/spacelift-io/opa/logging"
+	test_sdk "github.com/spacelift-io/opa/sdk/test"
+	"github.com/spacelift-io/opa/test/e2e"
 )
 
 type SafeBuffer struct {

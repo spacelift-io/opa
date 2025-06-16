@@ -7,7 +7,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestParseKeysConfig(t *testing.T) {

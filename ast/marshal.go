@@ -1,7 +1,7 @@
 package ast
 
 import (
-	astJSON "github.com/open-policy-agent/opa/ast/json"
+	astJSON "github.com/spacelift-io/opa/ast/json"
 )
 
 // customJSON is an interface that can be implemented by AST nodes that

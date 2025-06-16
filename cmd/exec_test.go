@@ -11,12 +11,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/cmd/internal/exec"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	loggingtest "github.com/open-policy-agent/opa/logging/test"
-	sdk_test "github.com/open-policy-agent/opa/sdk/test"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/cmd/internal/exec"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	loggingtest "github.com/spacelift-io/opa/logging/test"
+	sdk_test "github.com/spacelift-io/opa/sdk/test"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestExecBasic(t *testing.T) {

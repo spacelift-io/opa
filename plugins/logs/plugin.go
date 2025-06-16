@@ -20,18 +20,18 @@ import (
 
 	"golang.org/x/time/rate"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/ref"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	lstat "github.com/open-policy-agent/opa/plugins/logs/status"
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/plugins/status"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/server"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/ref"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
+	lstat "github.com/spacelift-io/opa/plugins/logs/status"
+	"github.com/spacelift-io/opa/plugins/rest"
+	"github.com/spacelift-io/opa/plugins/status"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/server"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Logger defines the interface for decision logging plugins.

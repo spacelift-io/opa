@@ -16,12 +16,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/logging/test"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
 )
 
 func TestStartStop(t *testing.T) {

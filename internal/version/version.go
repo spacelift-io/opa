@@ -10,8 +10,8 @@ import (
 	"fmt"
 	"runtime"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/version"
 )
 
 var versionPath = storage.MustParsePath("/system/version")

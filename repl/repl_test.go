@@ -18,11 +18,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/storage"
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/presentation"
+	"github.com/spacelift-io/opa/storage"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestFunction(t *testing.T) {
@@ -421,7 +421,7 @@ func TestHelpWithOPAVersionReport(t *testing.T) {
 	repl.SetOPAVersionReport([][2]string{
 		{"Latest Upstream Version", "0.19.2"},
 		{"Download", "https://openpolicyagent.org/downloads/v0.19.2/opa_darwin_amd64"},
-		{"Release Notes", "https://github.com/open-policy-agent/opa/releases/tag/v0.19.2"},
+		{"Release Notes", "https://github.com/spacelift-io/opa/releases/tag/v0.19.2"},
 	})
 	if err := repl.OneShot(ctx, "help"); err != nil {
 		t.Fatalf("Unexpected error: %v", err)
@@ -429,7 +429,7 @@ func TestHelpWithOPAVersionReport(t *testing.T) {
 
 	exp := `Latest Upstream Version : 0.19.2
 Download                : https://openpolicyagent.org/downloads/v0.19.2/opa_darwin_amd64
-Release Notes           : https://github.com/open-policy-agent/opa/releases/tag/v0.19.2`
+Release Notes           : https://github.com/spacelift-io/opa/releases/tag/v0.19.2`
 
 	if !strings.Contains(buffer.String(), exp) {
 		t.Fatalf("Expected output from help to contain: \"%v\" but got \"%v\"", exp, buffer.String())
@@ -2256,7 +2256,7 @@ func TestEvalBodyInputComplete(t *testing.T) {
 		WithRegoVersion(ast.RegoV0)
 
 	// Test that input can be defined completely:
-	// https://github.com/open-policy-agent/opa/issues/231
+	// https://github.com/spacelift-io/opa/issues/231
 	if err := repl.OneShot(ctx, `package repl`); err != nil {
 		t.Fatalf("Unexpected error: %v", err)
 	}
@@ -2629,7 +2629,7 @@ func TestEvalImport(t *testing.T) {
 		return
 	}
 
-	// https://github.com/open-policy-agent/opa/issues/158 - re-run query to
+	// https://github.com/spacelift-io/opa/issues/158 - re-run query to
 	// make sure import is not lost
 	buffer.Reset()
 	if err := repl.OneShot(ctx, "a[0].b.c[0] = true"); err != nil {

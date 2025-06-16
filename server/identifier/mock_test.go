@@ -4,7 +4,7 @@ import (
 	"crypto/x509"
 	"net/http"
 
-	"github.com/open-policy-agent/opa/server/identifier"
+	"github.com/spacelift-io/opa/server/identifier"
 )
 
 type mockHandler struct {

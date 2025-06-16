@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestDepsCompatibleFlags(t *testing.T) {

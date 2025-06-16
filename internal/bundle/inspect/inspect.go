@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/bundle"
-	initload "github.com/open-policy-agent/opa/internal/runtime/init"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/bundle"
+	initload "github.com/spacelift-io/opa/internal/runtime/init"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Info represents information about a bundle.

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/open-policy-agent/opa/loader/filter"
+	"github.com/spacelift-io/opa/loader/filter"
 
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/storage"
 )
 
 const maxSizeLimitBytesErrMsg = "bundle file %s size (%d bytes) exceeds configured size_limit_bytes (%d bytes)"

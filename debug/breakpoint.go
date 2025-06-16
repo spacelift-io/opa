@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/open-policy-agent/opa/ast/location"
+	"github.com/spacelift-io/opa/ast/location"
 )
 
 type BreakpointID int

@@ -17,9 +17,9 @@ import (
 	"strings"
 	"time"
 
-	v4 "github.com/open-policy-agent/opa/internal/providers/aws/v4"
+	v4 "github.com/spacelift-io/opa/internal/providers/aws/v4"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 func stringFromTerm(t *ast.Term) string {

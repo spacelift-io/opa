@@ -19,10 +19,10 @@ import (
 
 	"gopkg.in/yaml.v3"
 
-	"github.com/open-policy-agent/opa/ast/internal/scanner"
-	"github.com/open-policy-agent/opa/ast/internal/tokens"
-	astJSON "github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/ast/location"
+	"github.com/spacelift-io/opa/ast/internal/scanner"
+	"github.com/spacelift-io/opa/ast/internal/tokens"
+	astJSON "github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/ast/location"
 )
 
 var RegoV1CompatibleRef = Ref{VarTerm("rego"), StringTerm("v1")}

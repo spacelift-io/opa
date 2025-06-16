@@ -6,9 +6,9 @@ import (
 	"strings"
 
 	//nolint:revive
-	. "github.com/open-policy-agent/opa/internal/gqlparser/ast"
-	"github.com/open-policy-agent/opa/internal/gqlparser/gqlerror"
-	"github.com/open-policy-agent/opa/internal/gqlparser/parser"
+	. "github.com/spacelift-io/opa/internal/gqlparser/ast"
+	"github.com/spacelift-io/opa/internal/gqlparser/gqlerror"
+	"github.com/spacelift-io/opa/internal/gqlparser/parser"
 )
 
 func LoadSchema(inputs ...*Source) (*Schema, error) {

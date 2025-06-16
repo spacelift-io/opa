@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/cache"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown/cache"
 )
 
 func TestRegexBuiltinCache(t *testing.T) {

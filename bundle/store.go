@@ -12,12 +12,12 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	iCompiler "github.com/open-policy-agent/opa/internal/compiler"
-	"github.com/open-policy-agent/opa/internal/json/patch"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	iCompiler "github.com/spacelift-io/opa/internal/compiler"
+	"github.com/spacelift-io/opa/internal/json/patch"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
 )
 
 // BundlesBasePath is the storage path used for storing bundle metadata

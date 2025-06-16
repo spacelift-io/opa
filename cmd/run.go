@@ -15,11 +15,11 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	fileurl "github.com/open-policy-agent/opa/internal/file/url"
-	"github.com/open-policy-agent/opa/runtime"
-	"github.com/open-policy-agent/opa/server"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	fileurl "github.com/spacelift-io/opa/internal/file/url"
+	"github.com/spacelift-io/opa/runtime"
+	"github.com/spacelift-io/opa/server"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

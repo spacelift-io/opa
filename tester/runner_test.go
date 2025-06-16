@@ -11,14 +11,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cover"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/tester"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/cover"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/tester"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestRun(t *testing.T) {

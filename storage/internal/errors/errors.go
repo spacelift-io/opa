@@ -8,7 +8,7 @@ package errors
 import (
 	"fmt"
 
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/storage"
 )
 
 const ArrayIndexTypeMsg = "array index must be integer"

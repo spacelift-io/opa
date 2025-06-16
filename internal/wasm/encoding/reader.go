@@ -10,12 +10,12 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/open-policy-agent/opa/internal/leb128"
-	"github.com/open-policy-agent/opa/internal/wasm/constant"
-	"github.com/open-policy-agent/opa/internal/wasm/instruction"
-	"github.com/open-policy-agent/opa/internal/wasm/module"
-	"github.com/open-policy-agent/opa/internal/wasm/opcode"
-	"github.com/open-policy-agent/opa/internal/wasm/types"
+	"github.com/spacelift-io/opa/internal/leb128"
+	"github.com/spacelift-io/opa/internal/wasm/constant"
+	"github.com/spacelift-io/opa/internal/wasm/instruction"
+	"github.com/spacelift-io/opa/internal/wasm/module"
+	"github.com/spacelift-io/opa/internal/wasm/opcode"
+	"github.com/spacelift-io/opa/internal/wasm/types"
 )
 
 // ReadModule reads a binary-encoded WASM module from r.

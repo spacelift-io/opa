@@ -12,10 +12,10 @@ import (
 	"sort"
 
 	"github.com/fsnotify/fsnotify"
-	"github.com/open-policy-agent/opa/ast"
-	initload "github.com/open-policy-agent/opa/internal/runtime/init"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/ast"
+	initload "github.com/spacelift-io/opa/internal/runtime/init"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/storage"
 )
 
 // CreatePathWatcher creates watchers to monitor for path changes

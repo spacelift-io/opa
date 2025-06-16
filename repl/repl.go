@@ -18,23 +18,23 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/compile"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/compile"
 
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/version"
 
 	"github.com/peterh/liner"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/internal/future"
-	pr "github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/profiler"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/topdown/lineage"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/format"
+	"github.com/spacelift-io/opa/internal/future"
+	pr "github.com/spacelift-io/opa/internal/presentation"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/profiler"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/topdown/lineage"
 )
 
 // REPL represents an instance of the interactive shell.

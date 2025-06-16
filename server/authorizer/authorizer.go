@@ -11,15 +11,15 @@ import (
 	"net/url"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/server/identifier"
-	"github.com/open-policy-agent/opa/server/types"
-	"github.com/open-policy-agent/opa/server/writer"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/topdown/print"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/server/identifier"
+	"github.com/spacelift-io/opa/server/types"
+	"github.com/spacelift-io/opa/server/writer"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown/cache"
+	"github.com/spacelift-io/opa/topdown/print"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Basic provides policy-based authorization over incoming requests.

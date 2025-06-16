@@ -5,10 +5,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/internal/gqlparser/ast"
+	"github.com/spacelift-io/opa/internal/gqlparser/ast"
 
 	//nolint:revive // Validator rules each use dot imports for convenience.
-	. "github.com/open-policy-agent/opa/internal/gqlparser/validator"
+	. "github.com/spacelift-io/opa/internal/gqlparser/validator"
 )
 
 func init() {

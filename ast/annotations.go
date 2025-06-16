@@ -11,9 +11,9 @@ import (
 	"sort"
 	"strings"
 
-	astJSON "github.com/open-policy-agent/opa/ast/json"
-	"github.com/open-policy-agent/opa/internal/deepcopy"
-	"github.com/open-policy-agent/opa/util"
+	astJSON "github.com/spacelift-io/opa/ast/json"
+	"github.com/spacelift-io/opa/internal/deepcopy"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

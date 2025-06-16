@@ -4,7 +4,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/keys"
+	"github.com/spacelift-io/opa/keys"
 )
 
 func TestOCIWithAWSAuthSetsUpECRAuthPlugin(t *testing.T) {

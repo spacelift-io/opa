@@ -4,10 +4,10 @@ import (
 	"context"
 	"sync"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/plugins/rest"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/plugins/rest"
 	"oras.land/oras-go/v2/content/oci"
 )
 

@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/plugins/rest"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/plugins/rest"
 )
 
 var errUnauthorized = errors.New("401 Unauthorized")

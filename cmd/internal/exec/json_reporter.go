@@ -7,7 +7,7 @@ import (
 	"io"
 	"time"
 
-	"github.com/open-policy-agent/opa/sdk"
+	"github.com/spacelift-io/opa/sdk"
 )
 
 type result struct {

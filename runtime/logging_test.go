@@ -18,9 +18,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/logging/test"
-	"github.com/open-policy-agent/opa/server"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/logging/test"
+	"github.com/spacelift-io/opa/server"
 )
 
 func TestValidateGzipHeader(t *testing.T) {

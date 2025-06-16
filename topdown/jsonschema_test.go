@@ -8,9 +8,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/open-policy-agent/opa/topdown/cache"
+	"github.com/spacelift-io/opa/topdown/cache"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 func TestAstValueToJSONSchemaLoader(t *testing.T) {

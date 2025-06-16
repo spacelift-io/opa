@@ -11,19 +11,19 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/internal/storage/mock"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/internal/storage/mock"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/disk"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	inmemtst "github.com/open-policy-agent/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/disk"
+	"github.com/spacelift-io/opa/storage/inmem"
+	inmemtst "github.com/spacelift-io/opa/storage/inmem/test"
 )
 
 func TestManifestStoreLifecycleSingleBundle(t *testing.T) {

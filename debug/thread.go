@@ -9,12 +9,12 @@ import (
 	"fmt"
 	"sync"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 type threadState interface{}

@@ -1,4 +1,4 @@
-module github.com/open-policy-agent/opa
+module github.com/spacelift-io/opa
 
 go 1.21
 

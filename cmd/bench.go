@@ -19,22 +19,22 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 
-	"github.com/open-policy-agent/opa/server/types"
+	"github.com/spacelift-io/opa/server/types"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/runtime"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/runtime"
 
 	"github.com/olekukonko/tablewriter"
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	"github.com/open-policy-agent/opa/compile"
-	"github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	"github.com/spacelift-io/opa/compile"
+	"github.com/spacelift-io/opa/internal/presentation"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/util"
 )
 
 // benchmarkCommandParams are a superset of evalCommandParams

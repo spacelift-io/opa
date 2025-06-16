@@ -18,15 +18,15 @@ import (
 
 	"github.com/olekukonko/tablewriter"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cover"
-	"github.com/open-policy-agent/opa/format"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/profiler"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/cover"
+	"github.com/spacelift-io/opa/format"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/profiler"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 // DefaultProfileSortOrder is the default ordering unless something is specified in the CLI

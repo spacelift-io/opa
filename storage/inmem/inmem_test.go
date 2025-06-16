@@ -11,13 +11,13 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	storageerrors "github.com/open-policy-agent/opa/storage/internal/errors"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	storageerrors "github.com/spacelift-io/opa/storage/internal/errors"
 
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestInMemoryRead(t *testing.T) {

@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 // type compileBenchTestData struct {
@@ -17,7 +17,7 @@ import (
 
 func BenchmarkCompileDynamicPolicy(b *testing.B) {
 	// This benchmarks the compiler against increasingly large numbers of dynamically-selected policies.
-	// See: https://github.com/open-policy-agent/opa/issues/5216
+	// See: https://github.com/spacelift-io/opa/issues/5216
 
 	numPolicies := []int{1000, 2500, 5000, 7500, 10000}
 
@@ -72,7 +72,7 @@ denies[x] {
 
 func BenchmarkLargePartialRulePolicy(b *testing.B) {
 	// This benchmarks the compiler against very large partial rule sets.
-	// See: https://github.com/open-policy-agent/opa/issues/5756
+	// See: https://github.com/spacelift-io/opa/issues/5756
 	numPolicies := []int{1000, 2500, 5000, 7500}
 
 	for _, n := range numPolicies {

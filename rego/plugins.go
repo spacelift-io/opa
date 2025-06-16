@@ -8,8 +8,8 @@ import (
 	"context"
 	"sync"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ir"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ir"
 )
 
 var targetPlugins = map[string]TargetPlugin{}

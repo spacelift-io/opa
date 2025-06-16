@@ -13,8 +13,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/topdown/print"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/topdown/print"
 )
 
 type loggingPrintHook struct {

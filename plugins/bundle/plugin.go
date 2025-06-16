@@ -19,15 +19,15 @@ import (
 	"sync"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/download"
-	bundleUtils "github.com/open-policy-agent/opa/internal/bundle"
-	"github.com/open-policy-agent/opa/internal/ref"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/download"
+	bundleUtils "github.com/spacelift-io/opa/internal/bundle"
+	"github.com/spacelift-io/opa/internal/ref"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
+	"github.com/spacelift-io/opa/storage"
 )
 
 // maxActivationRetry represents the maximum number of attempts

@@ -14,10 +14,10 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/ref"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/ref"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/version"
 )
 
 // Config represents the configuration file that OPA can be started with.

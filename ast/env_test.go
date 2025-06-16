@@ -7,7 +7,7 @@ package ast
 import (
 	"testing"
 
-	"github.com/open-policy-agent/opa/types"
+	"github.com/spacelift-io/opa/types"
 )
 
 func TestInsertIntoObject(t *testing.T) {

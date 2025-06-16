@@ -11,10 +11,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestWriteTokenToFile(t *testing.T) {

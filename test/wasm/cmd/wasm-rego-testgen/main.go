@@ -18,10 +18,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/test/cases"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/test/cases"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 type params struct {

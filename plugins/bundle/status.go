@@ -10,10 +10,10 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/download"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/server/types"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/download"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/server/types"
 )
 
 const (

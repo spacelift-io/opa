@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/gobwas/glob"
-	"github.com/open-policy-agent/opa/ast"
+	"github.com/spacelift-io/opa/ast"
 )
 
 func BenchmarkBuiltinGlobMatch(b *testing.B) {

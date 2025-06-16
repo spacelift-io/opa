@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"os"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/semver"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/semver"
 )
 
 func minVersionIndex() ast.VersionIndex {

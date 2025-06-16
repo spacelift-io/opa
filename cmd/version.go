@@ -13,10 +13,10 @@ import (
 
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	"github.com/open-policy-agent/opa/internal/report"
-	"github.com/open-policy-agent/opa/internal/uuid"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	"github.com/spacelift-io/opa/internal/report"
+	"github.com/spacelift-io/opa/internal/uuid"
+	"github.com/spacelift-io/opa/version"
 )
 
 func init() {

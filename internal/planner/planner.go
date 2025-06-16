@@ -11,10 +11,10 @@ import (
 	"io"
 	"sort"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/internal/debug"
-	"github.com/open-policy-agent/opa/ir"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/internal/debug"
+	"github.com/spacelift-io/opa/ir"
 )
 
 // QuerySet represents the input to the planner.

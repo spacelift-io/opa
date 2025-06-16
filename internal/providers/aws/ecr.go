@@ -10,8 +10,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/version"
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/spacelift-io/opa/internal/version"
+	"github.com/spacelift-io/opa/logging"
 )
 
 // Values taken from

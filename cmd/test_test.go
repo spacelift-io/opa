@@ -14,12 +14,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestFilterTraceDefault(t *testing.T) {

@@ -1,7 +1,7 @@
 package metrics
 
 import (
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 var defaultHTTPRequestBuckets = []float64{

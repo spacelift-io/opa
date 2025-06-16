@@ -19,9 +19,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/internal/providers/aws"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/internal/providers/aws"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 // this is usually private; but we need it here

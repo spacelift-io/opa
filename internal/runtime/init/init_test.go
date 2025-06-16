@@ -16,15 +16,15 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/bundle"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/storage"
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
-	"github.com/open-policy-agent/opa/version"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/bundle"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/storage"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
+	"github.com/spacelift-io/opa/version"
 )
 
 func TestInit(t *testing.T) {

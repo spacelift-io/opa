@@ -20,16 +20,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/format"
+	"github.com/spacelift-io/opa/format"
 	"sigs.k8s.io/yaml"
 
-	iCache "github.com/open-policy-agent/opa/topdown/cache"
+	iCache "github.com/spacelift-io/opa/topdown/cache"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/storage"
-	inmem "github.com/open-policy-agent/opa/storage/inmem/test"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/storage"
+	inmem "github.com/spacelift-io/opa/storage/inmem/test"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestTopDownQueryIDsUnique(t *testing.T) {
@@ -595,7 +595,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("a", "b", "x", "y", "q"),
 			extraExit: 1, // p + q
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, multiple array iterations, ref to other complete doc with iteration and cached result",
 			module: `
 				package test
@@ -614,7 +614,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "y", "q1", "q2", "a", "b"),
 			extraExit: 1, // p + q
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, multiple array iterations, ref to multiple other complete docs with iteration and cached result",
 			module: `
 				package test
@@ -675,7 +675,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, multiple array iterations, module-local data, cached result",
 			module: `
 				package test
@@ -688,7 +688,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "y"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration, ref to other complete doc without early exit",
 			module: `package test
 			p if {
@@ -701,7 +701,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			}`,
 			notes: n("x", "y"),
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration, ref to other complete doc without early exit (multiple rules)",
 			module: `package test
 			p if {
@@ -718,7 +718,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			}`,
 			notes: n("x", "a", "b", "y"),
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration, multiple refs to other complete docs without early exit",
 			module: `package test
 			p if {
@@ -812,7 +812,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a"),
 			extraExit: 1, // p + f()
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration, func call without early exit, static arg",
 			module: `
 				package test
@@ -827,7 +827,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			`,
 			notes: n("x", "a"),
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration -> func call without early exit, dynamic arg",
 			module: `
 				package test
@@ -842,7 +842,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			`,
 			notes: n("x", "a"),
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, set iteration -> func call without early exit, dynamic arg",
 			module: `
 				package test
@@ -860,7 +860,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a"),
 			extraExit: 1, // p + o
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, object iteration -> func call without early exit, dynamic arg",
 			module: `
 				package test
@@ -882,7 +882,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a"),
 			extraExit: 1, // p + o
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration -> func call without early exit, array iteration, dynamic arg",
 			module: `
 				package test
@@ -901,7 +901,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a", "a", "a", "a", "a", "b", "b"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, set iteration -> func call without early exit, set iteration, dynamic arg",
 			module: `
 				package test
@@ -921,7 +921,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a", "a", "a", "a", "a", "b"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, object iteration -> func call without early exit, object iteration, dynamic arg",
 			module: `
 				package test
@@ -946,7 +946,7 @@ func TestTopDownEarlyExit(t *testing.T) {
 			notes:     n("x", "a", "a", "a", "a", "b", "b"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration -> func call without early exit, virtual doc array iteration, dynamic arg",
 			module: `
 				package test
@@ -965,7 +965,7 @@ arr := [1, 2, 3, 4, 5]
 			notes:     n("x", "a", "a", "a", "a", "a", "b"),
 			extraExit: 1, // p + arr
 		},
-		{ // Regression test for: https://github.com/open-policy-agent/opa/issues/6566
+		{ // Regression test for: https://github.com/spacelift-io/opa/issues/6566
 			note: "complete doc, array iteration -> func (multi) call without early exit, static arg",
 			module: `
 				package test
@@ -2329,8 +2329,8 @@ func getTestNamespace() string {
 		for more := true; more; {
 			var f runtime.Frame
 			f, more = frames.Next()
-			if strings.HasPrefix(f.Function, "github.com/open-policy-agent/opa/topdown.Test") {
-				return strings.TrimPrefix(strings.ToLower(strings.TrimPrefix(strings.TrimPrefix(f.Function, "github.com/open-policy-agent/opa/topdown.Test"), "TopDown")), "builtin")
+			if strings.HasPrefix(f.Function, "github.com/spacelift-io/opa/topdown.Test") {
+				return strings.TrimPrefix(strings.ToLower(strings.TrimPrefix(strings.TrimPrefix(f.Function, "github.com/spacelift-io/opa/topdown.Test"), "TopDown")), "builtin")
 			}
 		}
 	}

@@ -7,8 +7,8 @@ package schemas_test
 import (
 	"testing"
 
-	"github.com/open-policy-agent/opa/schemas"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/schemas"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestSchemasEmbedded(t *testing.T) {

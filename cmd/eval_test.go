@@ -18,14 +18,14 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/file/archive"
-	"github.com/open-policy-agent/opa/internal/presentation"
-	"github.com/open-policy-agent/opa/loader"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/util"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/file/archive"
+	"github.com/spacelift-io/opa/internal/presentation"
+	"github.com/spacelift-io/opa/loader"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/util"
+	"github.com/spacelift-io/opa/util/test"
 )
 
 func TestEvalExitCode(t *testing.T) {
@@ -298,7 +298,7 @@ func TestEvalWithOptimize(t *testing.T) {
 
 // Ensure that entrypoint annotations don't cause panics when using
 // higher levels of optimization.
-// Reference: https://github.com/open-policy-agent/opa/issues/5368
+// Reference: https://github.com/spacelift-io/opa/issues/5368
 func TestEvalIssue5368(t *testing.T) {
 	files := map[string]string{
 		"test.rego": `

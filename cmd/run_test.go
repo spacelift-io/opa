@@ -16,9 +16,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/test/e2e"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/test/e2e"
+	"github.com/spacelift-io/opa/util/test"
 	"github.com/spf13/cobra"
 )
 

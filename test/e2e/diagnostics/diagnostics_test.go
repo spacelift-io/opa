@@ -7,7 +7,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/open-policy-agent/opa/test/e2e"
+	"github.com/spacelift-io/opa/test/e2e"
 )
 
 var testRuntime *e2e.TestRuntime

@@ -13,9 +13,9 @@ import (
 	"strings"
 	"unicode"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/future"
-	"github.com/open-policy-agent/opa/types"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/future"
+	"github.com/spacelift-io/opa/types"
 )
 
 // Opts lets you control the code formatting via `AstWithOpts()`.

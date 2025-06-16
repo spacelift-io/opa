@@ -7,7 +7,7 @@ package disk
 import (
 	"testing"
 
-	"github.com/open-policy-agent/opa/storage"
+	"github.com/spacelift-io/opa/storage"
 )
 
 func TestIsDisjoint(t *testing.T) {

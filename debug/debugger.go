@@ -17,14 +17,14 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/open-policy-agent/opa/ast/location"
-	fileurl "github.com/open-policy-agent/opa/internal/file/url"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown"
-	prnt "github.com/open-policy-agent/opa/topdown/print"
+	"github.com/spacelift-io/opa/ast/location"
+	fileurl "github.com/spacelift-io/opa/internal/file/url"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/topdown"
+	prnt "github.com/spacelift-io/opa/topdown/print"
 )
 
 // Debugger is the interface for launching OPA debugger Session(s).

@@ -14,10 +14,10 @@ import (
 	"github.com/sergi/go-diff/diffmatchpatch"
 	"github.com/spf13/cobra"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/cmd/internal/env"
-	"github.com/open-policy-agent/opa/format"
-	fileurl "github.com/open-policy-agent/opa/internal/file/url"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/cmd/internal/env"
+	"github.com/spacelift-io/opa/format"
+	fileurl "github.com/spacelift-io/opa/internal/file/url"
 )
 
 type fmtCommandParams struct {

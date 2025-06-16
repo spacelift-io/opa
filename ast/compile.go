@@ -12,12 +12,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/internal/debug"
-	"github.com/open-policy-agent/opa/internal/gojsonschema"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/internal/debug"
+	"github.com/spacelift-io/opa/internal/gojsonschema"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 // CompileErrorLimitDefault is the default number errors a compiler will allow before

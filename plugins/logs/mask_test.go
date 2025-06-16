@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/util"
 )
 
 func TestNewMaskRule(t *testing.T) {

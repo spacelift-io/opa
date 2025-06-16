@@ -8,7 +8,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/internal/uuid"
+	"github.com/spacelift-io/opa/internal/uuid"
 )
 
 func TestWithFields(t *testing.T) {

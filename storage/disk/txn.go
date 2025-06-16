@@ -13,11 +13,11 @@ import (
 
 	badger "github.com/dgraph-io/badger/v3"
 
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/storage"
-	"github.com/open-policy-agent/opa/storage/internal/errors"
-	"github.com/open-policy-agent/opa/storage/internal/ptr"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/storage"
+	"github.com/spacelift-io/opa/storage/internal/errors"
+	"github.com/spacelift-io/opa/storage/internal/ptr"
+	"github.com/spacelift-io/opa/util"
 )
 
 const (

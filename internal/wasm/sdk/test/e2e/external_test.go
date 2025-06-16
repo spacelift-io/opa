@@ -19,12 +19,12 @@ import (
 	"testing"
 	"time"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/wasm/sdk/opa"
-	"github.com/open-policy-agent/opa/rego"
-	"github.com/open-policy-agent/opa/test/cases"
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/wasm/sdk/opa"
+	"github.com/spacelift-io/opa/rego"
+	"github.com/spacelift-io/opa/test/cases"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 const opaRootDir = "../../../../../"

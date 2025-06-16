@@ -10,7 +10,7 @@ package rego
 import (
 	"context"
 	"fmt"
-	"github.com/open-policy-agent/opa/metrics"
+	"github.com/spacelift-io/opa/metrics"
 	"math/rand"
 	"net/http"
 	"net/http/httptest"
@@ -21,14 +21,14 @@ import (
 
 	"github.com/fortytw2/leaktest"
 
-	"github.com/open-policy-agent/opa/ast"
-	sdk_errors "github.com/open-policy-agent/opa/internal/wasm/sdk/opa/errors"
-	"github.com/open-policy-agent/opa/storage/inmem"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/topdown/cache"
-	"github.com/open-policy-agent/opa/util/test"
+	"github.com/spacelift-io/opa/ast"
+	sdk_errors "github.com/spacelift-io/opa/internal/wasm/sdk/opa/errors"
+	"github.com/spacelift-io/opa/storage/inmem"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/topdown/cache"
+	"github.com/spacelift-io/opa/util/test"
 
-	_ "github.com/open-policy-agent/opa/features/wasm"
+	_ "github.com/spacelift-io/opa/features/wasm"
 )
 
 func TestPrepareAndEvalWithWasmTarget(t *testing.T) {

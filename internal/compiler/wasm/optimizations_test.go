@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/planner"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/planner"
 )
 
 func TestRemoveUnusedCode(t *testing.T) {

@@ -14,12 +14,12 @@ import (
 
 	"sigs.k8s.io/yaml"
 
-	"github.com/open-policy-agent/opa/internal/strvals"
-	"github.com/open-policy-agent/opa/keys"
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/plugins/rest"
-	"github.com/open-policy-agent/opa/tracing"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/internal/strvals"
+	"github.com/spacelift-io/opa/keys"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/plugins/rest"
+	"github.com/spacelift-io/opa/tracing"
+	"github.com/spacelift-io/opa/util"
 )
 
 // ServiceOptions stores the options passed to ParseServicesConfig

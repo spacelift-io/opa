@@ -11,9 +11,9 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Error codes returned by OPA's REST API.

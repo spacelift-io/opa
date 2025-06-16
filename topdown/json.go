@@ -9,10 +9,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/topdown/builtins"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/topdown/builtins"
 
-	"github.com/open-policy-agent/opa/internal/edittree"
+	"github.com/spacelift-io/opa/internal/edittree"
 )
 
 func builtinJSONRemove(_ BuiltinContext, operands []*ast.Term, iter func(*ast.Term) error) error {

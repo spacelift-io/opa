@@ -14,13 +14,13 @@ import (
 
 	prom "github.com/prometheus/client_golang/prometheus"
 
-	lstat "github.com/open-policy-agent/opa/plugins/logs/status"
+	lstat "github.com/spacelift-io/opa/plugins/logs/status"
 
-	"github.com/open-policy-agent/opa/logging"
-	"github.com/open-policy-agent/opa/metrics"
-	"github.com/open-policy-agent/opa/plugins"
-	"github.com/open-policy-agent/opa/plugins/bundle"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/logging"
+	"github.com/spacelift-io/opa/metrics"
+	"github.com/spacelift-io/opa/plugins"
+	"github.com/spacelift-io/opa/plugins/bundle"
+	"github.com/spacelift-io/opa/util"
 )
 
 // Logger defines the interface for status plugins.

@@ -12,8 +12,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ast/location"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ast/location"
 )
 
 func TestFormatNilLocation(t *testing.T) {

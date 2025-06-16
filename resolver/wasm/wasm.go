@@ -9,9 +9,9 @@ import (
 	"fmt"
 	"strconv"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/internal/rego/opa"
-	"github.com/open-policy-agent/opa/resolver"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/internal/rego/opa"
+	"github.com/spacelift-io/opa/resolver"
 )
 
 // New creates a new Resolver instance which is using the Wasm module

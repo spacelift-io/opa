@@ -7,8 +7,8 @@ package debug
 import (
 	"fmt"
 
-	"github.com/open-policy-agent/opa/ast/location"
-	"github.com/open-policy-agent/opa/topdown"
+	"github.com/spacelift-io/opa/ast/location"
+	"github.com/spacelift-io/opa/topdown"
 )
 
 type FrameID int

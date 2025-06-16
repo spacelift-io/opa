@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/open-policy-agent/opa/sdk"
+	"github.com/spacelift-io/opa/sdk"
 )
 
 func TestJsonReporter_Close(t *testing.T) {

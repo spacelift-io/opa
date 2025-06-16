@@ -11,8 +11,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/ast"
-	"github.com/open-policy-agent/opa/ir"
+	"github.com/spacelift-io/opa/ast"
+	"github.com/spacelift-io/opa/ir"
 )
 
 func TestPlannerHelloWorld(t *testing.T) {
@@ -65,7 +65,7 @@ func TestPlannerHelloWorld(t *testing.T) {
 			queries: []string{"not input.x.y = 1"},
 		},
 		{
-			note:    "not and known vars", // https://github.com/open-policy-agent/opa/issues/3279
+			note:    "not and known vars", // https://github.com/spacelift-io/opa/issues/3279
 			queries: []string{`x = "foo"; not data.tenants[x]`},
 		},
 		{

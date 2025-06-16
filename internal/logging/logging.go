@@ -12,7 +12,7 @@ import (
 
 	"github.com/sirupsen/logrus"
 
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/spacelift-io/opa/logging"
 )
 
 func GetLevel(level string) (logging.Level, error) {

@@ -7,7 +7,7 @@ package runtime
 import (
 	"os/user"
 
-	"github.com/open-policy-agent/opa/logging"
+	"github.com/spacelift-io/opa/logging"
 )
 
 // checkUserPrivileges on Linux could be running in Docker, so we check if

@@ -13,8 +13,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/open-policy-agent/opa/types"
-	"github.com/open-policy-agent/opa/util"
+	"github.com/spacelift-io/opa/types"
+	"github.com/spacelift-io/opa/util"
 )
 
 func testParseSchema(t *testing.T, schema string, expectedType types.Type, expectedError error) {

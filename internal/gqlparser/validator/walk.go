@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/open-policy-agent/opa/internal/gqlparser/ast"
+	"github.com/spacelift-io/opa/internal/gqlparser/ast"
 )
 
 type Events struct {
